@@ -11,6 +11,7 @@ import ToDoForm from "./components/ToDoForm";
 
 function App() {
 
+
     const [toDoList, setToDoList] = useState(data);
 
     const handleToggle = (id) => {
@@ -38,6 +39,7 @@ function App() {
         <ToDoList toDoList={toDoList} handleToggle={handleToggle} handleFilter={handleFilter} />
         <ToDoForm addTask={addTask}/>
     </Container>
+
   );
 }
 

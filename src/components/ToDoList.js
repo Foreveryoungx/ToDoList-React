@@ -11,7 +11,7 @@ export const ToDoList = ({toDoList, handleToggle, handleFilter}) => {
                     <ToDo todo={todo} handleToggle={handleToggle} handleFilter={handleFilter}/>
                 )
             })}
-            <Button style={{margin: '20px'}} onClick={handleFilter}>Clear List</Button>
+            <Button style={{margin: '20px'}} onClick={handleFilter} color={'black'}>Clear List</Button>
         </Segment>
     );
 };

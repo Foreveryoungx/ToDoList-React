@@ -16,8 +16,8 @@ export const ToDoForm = ({addTask}) => {
     }
     return (
         <Form onSubmit={handleSubmit}>
-            <Input value={userInput} type="text" onChange={handleChange} placeholder="Please  add a task..."/>
-            <Button inverted color='red'>Add</Button>
+            <Input focus value={userInput} color={'black'} type="text" onChange={handleChange} placeholder="Please  add a task..."/>
+            <Button color={'black'}>Add</Button>
         </Form>
     );
 };
